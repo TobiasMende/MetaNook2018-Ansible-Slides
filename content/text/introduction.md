@@ -16,11 +16,10 @@
 
 ---
 
-# Themen
+# Inhalt
 
 1. Infrastructure as Code
-1. Was ist Ansible?
-1. Warum Ansible?
+1. Ansible
 1. Grundlagen
 1. Getting Started
 1. Live Demo
@@ -30,11 +29,11 @@
 
 > „Infrastructure as code is the approach to defining computing and network infrastructure through source code that can then be treated just like any software system.
 >
-> *Martin Fowler*
+> _Martin Fowler_
 
----
+--
 
-# Infrastructure as Code
+## Infrastructure as Code
 
 * Kein implizites Wissen
 * Versionskontrolle
@@ -49,7 +48,11 @@ Note: Add Image
 
 ---
 
-# Was ist Ansible?
+# Ansible
+
+--
+
+## Was ist Ansible?
 
 * Menschenlesbare Automation
 * App Deployment
@@ -58,13 +61,13 @@ Note: Add Image
 * „Agentenlos“ mit Standard-Mitteln (SSH, Python)
 * Community-Powered und Open Source
 
----
+--
 
-# Was kann Ansible?
+## Was kann Ansible?
 
-* System in einen gewünschten Zustand bringen
+* Systeme in einen gewünschten Zustand bringen
 * Befehle auf mehreren Knoten ausführen
 * Automatisierung ohne Code
-* Deklarative Syntax (Was, nicht wie)
+* Deklarative Syntax _(Was, nicht wie)_
 * Module für verschiedene Anwendungsgebiete
   * Datenbanken, Netzwerk, Cloud, Dateisysteme, Unix, Windows, ...

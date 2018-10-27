@@ -1,6 +1,6 @@
 # Grundlagen
 
----
+--
 
 ## Playbooks
 * Kollektion von „Tasks“, „Roles“, „Handlers“, …
@@ -9,12 +9,12 @@
 
 Note: Add image
 
----
+--
 
 ## Tasks
 * werden in der definierten Reihenfolge ausgeführt
-* für alle Maschinen
-* führt ein Modul mit spezifischen Argumenten aus
+* werden auf alle Maschinen angewendet
+* führen Module mit spezifischen Argumenten aus
 
 ```yaml
 - name: Installing Packages
@@ -26,7 +26,7 @@ Note: Add image
     - fail2ban
 ```
 
----
+--
 
 ## Modules
 * sollten idempotent sein
@@ -43,24 +43,25 @@ Note: Add image
     - fail2ban
 ```
 
----
+--
 
 ## Handler
-werden am Ende ausgeführt, sofern notwendig
+werden am Ende ausgeführt, sofern notwendig.
 
 ```yaml
   - name: write some_random_foo configuration
     template: src=templates/foo.j2 dest=/etc/foo.conf
-    notify:
-    - restart apache
-```
+    notify: restart apache
+``` 
+<!-- .element: class="fragment" -->
 
 ```yaml
 - name: restart apache
   service: name=httpd state=restarted
-```
+``` 
+<!-- .element: class="fragment" -->
 
----
+--
 
 ## Inventory
 
@@ -69,33 +70,7 @@ werden am Ende ausgeführt, sofern notwendig
 * Statische und dynamische Inventories
 * .ini oder .yml
 
-```ini
-[atlanta]
-host1
-host2
-
-[raleigh]
-host2
-host3
-
-[southeast:children]
-atlanta
-raleigh
-
-[southeast:vars]
-some_server=foo.southeast.example.com
-halon_system_timeout=30
-self_destruct_countdown=60
-escape_pods=2
-
-[usa:children]
-southeast
-northeast
-southwest
-northwest
-```
-
----
+--
 
 ## Roles
 
@@ -109,7 +84,8 @@ northwest
 ## Getting Started
 
 * Python installieren (2 oder 3)
-* Ansible installieren (Package Manager oder pip)
-* Erste Kommandos abfeuern
-* Erstes Playbook erstellen (z.B. mit ansible-generate)
+* Ansible installieren (Package Manager oder `pip`)
 * ggf. SSH-Key auf Zielrechnern hinterlegen
+* Erste Kommandos abfeuern mit `ansible`
+* Erstes Playbook erstellen (z.B. mit `ansible-generate`)
+* Playbook ausführen mit `ansible-playbook`

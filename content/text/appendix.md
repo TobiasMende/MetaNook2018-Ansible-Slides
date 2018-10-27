@@ -1,6 +1,6 @@
 # Was sonst noch?
 
----
+--
 
 ## Best Practices
 
@@ -16,7 +16,7 @@
 * ermöglicht feingranulare Ausführbarkeit
 * vermeidet falsche Ziele (production statt staging)
 
----
+--
 
 ## Ansible Tower
 
@@ -27,7 +27,7 @@
 
 siehe [Ansible Tower Produktseite](https://www.ansible.com/products/tower)
 
----
+--
 
 ## Referenzen
 
@@ -36,10 +36,13 @@ siehe [Ansible Tower Produktseite](https://www.ansible.com/products/tower)
 * [Module Documentation](https://docs.ansible.com/ansible/latest/modules/modules_by_category.html)
 * [Beispiele auf Github](https://github.com/ansible/ansible-examples)
 
----
+--
 
 ## Nützliche Tools
 
 * VSCode mit Ansible Plugin
 * ansible-generator
     * `pip install -U ansible-generator`
+
+---
+## Vielen Dank für die Aufmerksamkeit!

@@ -1,6 +1,6 @@
 # Live Demo
 
----
+--
 
 ## Szenario
 Automatischer Aufbau einer Infrastruktur und Deployment für eine Web-Anwendung.
@@ -11,7 +11,7 @@ Automatischer Aufbau einer Infrastruktur und Deployment für eine Web-Anwendung.
 
 Note: Add image / diagram?
 
----
+--
 
 ## Umsetzung
 
