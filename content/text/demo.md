@@ -5,11 +5,7 @@
 ## Szenario
 Automatischer Aufbau einer Infrastruktur und Deployment für eine Web-Anwendung.
 
-* *Loadbalancer:* lb01.vagrant.test
-* *App-Server:* app01.vagrant.test und app02.vagrant.test
-* *Datenbankserver:* db01.vagrant.test
-
-Note: Add image / diagram?
+<img src="content/images/szenario.svg" style="border: none; background: none; box-shadow: none;">
 
 --
 

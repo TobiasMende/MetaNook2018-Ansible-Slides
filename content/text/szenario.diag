@@ -1,0 +1,18 @@
+{
+   node_width = 200;
+   node_height = 50;
+   default_shape = roundedbox;
+   default_linecolor = white;
+   default_node_color = "#0d99a5";
+   default_textcolor = white;
+
+   User -> lb01.vagrant.test;
+   lb01.vagrant.test -> app01.vagrant.test;
+   lb01.vagrant.test -> app02.vagrant.test;
+   app01.vagrant.test -> db01.vagrant.test;
+   app02.vagrant.test -> db01.vagrant.test;
+
+  db01.vagrant.test [shape = flowchart.database];
+  lb01.vagrant.test [shape = cloud];
+  User [shape = actor];
+}
