@@ -1,13 +1,19 @@
-# Grundlagen
+# Ansible Grundlagen
 
 --
 
 ## Playbooks
-* Kollektion von „Tasks“, „Roles“, „Handlers“, …
-* Beschreibung von Deployments, Configuration und Orchestrierung
-* Beschreiben den gewünschten Zustand
 
-Note: Add image
+<div class='left-col'>
+<ul>
+  <li>Kollektion von „Tasks“, „Roles“, „Handlers“, …</li>
+  <li>Beschreibung von Deployments, Configuration und Orchestrierung</li>
+  <li>Beschreiben den gewünschten Zustand</li>
+</ul>
+</div>    
+<div class='right-col'>
+ <img src="content/images/playbook_structure.png" width="50%" />
+</div>
 
 --
 

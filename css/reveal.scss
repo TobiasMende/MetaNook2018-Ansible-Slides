@@ -1762,3 +1762,18 @@ $controlsArrowAngleActive: 36deg;
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
 }
+
+.column {
+	width:45%;
+}
+
+.left-col {
+	@extend .column;
+	float: left;
+}
+
+.right-col {
+	@extend .column;
+	float: right;
+	margin-top: -50px!important;
+}

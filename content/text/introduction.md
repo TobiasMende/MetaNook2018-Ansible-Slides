@@ -1,11 +1,20 @@
 # Ansible
 ## Configuration as Code
 ### MetaNook 2018
- Tobias Mende | @tobias_mende
+ Tobias Mende | [@tobias_mende](https://twitter.com/tobias_mende)
 
 ---
 
-# Über Infrastructure as Code
+# Über Configuration as Code
+
+--
+
+## Prinzipien
+
+* Konfiguration der Umgebung muss automatisiert sein.
+* **Alles** ist unter Versionskontrolle
+* So einfach wie möglich halten!
+* Konfiguration wird getestet
 
 --
 
@@ -17,16 +26,21 @@
 
 ## Viele Vorteile!
 
-* Kein implizites Wissen
-* Versionskontrolle
-* Reviews
-* Nachvollziehbarkeit
-* Wiederholbarkeit
-* Rollbacks
-* CI/CD
-* ...
-
-Note: Add Image
+<div class='left-col'>
+<ul>
+  <li>Kein implizites Wissen</li>
+  <li>Versionskontrolle</li>
+  <li>Reviews</li>
+  <li>Nachvollziehbarkeit</li>
+  <li>Wiederholbarkeit</li>
+  <li>Rollbacks</li>
+  <li>CI/CD</li>
+  <li>...</li>
+</ul>
+</div>    
+<div class='right-col'>
+ <img src="content/images/infrastructureascode.png"/>
+</div>
 
 ---
 
