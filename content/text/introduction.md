@@ -5,7 +5,25 @@
 
 ---
 
-# Über Configuration as Code
+# Configuration as Code
+
+--
+
+<!-- .slide: data-background-image="content/images/ops-problem.jpg" data-background-size="contain" -->
+
+--
+
+> „Infrastructure as code is the approach to defining computing and network infrastructure through source code that can then be treated just like any software system.
+>
+> _Martin Fowler_
+
+Notes:
+
+* Unterschied Configuration / Infrastructure as Code:
+  * CaC: Konfiguration bestehender Systeme
+  * IaC: Erschaffung einer Infrastruktur
+* Hier synonym verwendet
+* Ansible kann beides
 
 --
 
@@ -15,12 +33,6 @@
 * **Alles** ist unter Versionskontrolle
 * So einfach wie möglich halten!
 * Konfiguration wird getestet
-
---
-
-> „Infrastructure as code is the approach to defining computing and network infrastructure through source code that can then be treated just like any software system.
->
-> _Martin Fowler_
 
 --
 
@@ -70,7 +82,7 @@
 
 --
 
-## Meine Ansible Erfahrungen
+## Meine Ansible Projekte
 
 * Server-Konfiguration 
     * Webhosting, Mailserver, ...
