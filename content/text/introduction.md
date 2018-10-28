@@ -5,27 +5,9 @@
 
 ---
 
-## Meine Ansible Erfahrungen
+# Über Infrastructure as Code
 
-* Server-Konfiguration 
-    * Webhosting, Mailserver, ...
-* RaspberryPi-Konfiguration 
-    * OpenHab, Homegear, ...
-* „Thing“-Konfiguration im IoT 
-    * Azure Edge, Docker, ...
-
----
-
-# Inhalt
-
-1. Infrastructure as Code
-1. Ansible
-1. Grundlagen
-1. Getting Started
-1. Live Demo
-1. Referenzen / Weiterführendes
-
----
+--
 
 > „Infrastructure as code is the approach to defining computing and network infrastructure through source code that can then be treated just like any software system.
 >
@@ -33,7 +15,7 @@
 
 --
 
-## Infrastructure as Code
+## Viele Vorteile!
 
 * Kein implizites Wissen
 * Versionskontrolle
@@ -48,7 +30,7 @@ Note: Add Image
 
 ---
 
-# Ansible
+# Über Ansible
 
 --
 
@@ -71,3 +53,14 @@ Note: Add Image
 * Deklarative Syntax _(Was, nicht wie)_
 * Module für verschiedene Anwendungsgebiete
   * Datenbanken, Netzwerk, Cloud, Dateisysteme, Unix, Windows, ...
+
+--
+
+## Meine Ansible Erfahrungen
+
+* Server-Konfiguration 
+    * Webhosting, Mailserver, ...
+* RaspberryPi-Konfiguration 
+    * OpenHab, Homegear, ...
+* „Thing“-Konfiguration im IoT 
+    * Azure Edge, Docker, ...

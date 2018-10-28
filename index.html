@@ -61,11 +61,31 @@
 			display: 'block',
 			help: true,
 
+			tableofcontents: {
+				// Specifies the slide title of the table of contents slide
+				title: "Das erwartet euch",
+		
+				// Specifies the position of the table of contents slide in the presentation
+				position: 2,
+		
+				// Specifies which slide tag elements will be used
+				// for generating the table of contents.
+				titleTagSelector: "h1",
+		
+				// Specifies if the first slide, mostly the title slide of the presentation, should be ignored.
+				ignoreFirstSlide: true,
+		
+				// Specifies if every single element of the table of contents
+				// will be stepped through before moving on to the next slide.
+				fadeInElements: false
+			},
+
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },
 				{ src: 'plugin/markdown/markdown.js' },
 				{ src: 'plugin/notes/notes.js', async: true },
-				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'node_modules/reveal.js-tableofcontents/tableofcontents.js' }
 			]
 		});
 	</script>

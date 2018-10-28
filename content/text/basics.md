@@ -49,9 +49,9 @@ Note: Add image
 werden am Ende ausgeführt, sofern notwendig.
 
 ```yaml
-  - name: write some_random_foo configuration
-    template: src=templates/foo.j2 dest=/etc/foo.conf
-    notify: restart apache
+- name: write some_random_foo configuration
+  template: src=templates/foo.j2 dest=/etc/foo.conf
+  notify: restart apache
 ``` 
 <!-- .element: class="fragment" -->
 
@@ -68,7 +68,8 @@ werden am Ende ausgeführt, sofern notwendig.
 * Enthält Gruppen, Hosts und ggf. Variablen
 * Beschreibt, auf was das Playbook angewendet wird
 * Statische und dynamische Inventories
-* .ini oder .yml
+* Statisch: .ini oder .yml
+* Dynamisch: z.B. Python-Skripte
 
 --
 
