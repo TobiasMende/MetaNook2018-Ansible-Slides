@@ -40,6 +40,16 @@ siehe [Ansible Tower Produktseite](https://www.ansible.com/products/tower)
 
 --
 
+## Quellecode & Co.
+
+* [RevealJS Slides](https://github.com/TobiasMende/MetaNook2018-Ansible-Slides)
+* [Ansible Playbook](https://github.com/TobiasMende/MetaNook2018-Ansible-Playbook)
+* [Node JS Demo App](https://github.com/TobiasMende/MetaNook2018-Ansible-App)
+
+[**Folien online anschauen**](https://tobiasmende.github.io/MetaNook2018-Ansible-Slides/#/)
+
+--
+
 ## Nützliche Tools
 
 * VSCode mit Ansible Plugin
