@@ -1,7 +1,7 @@
 # Ansible
 ## Configuration as Code
 ### MetaNook 2018
- Tobias Mende | [@tobias_mende](https://twitter.com/tobias_mende)
+ Tobias Mende | [@tobias_mende](https://twitter.com/tobias_mende) | [tobias-men.de](https://tobias-men.de)
 
 ---
 
