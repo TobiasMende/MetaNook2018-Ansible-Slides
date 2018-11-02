@@ -62,31 +62,32 @@ Notes:
 
 ## Was ist Ansible?
 
-* Menschenlesbare Automation
-* App Deployment
-* Konfigurationsmanagement
-* Orchestration von Abläufen
-* „Agentenlos“ mit Standard-Mitteln (SSH, Python)
-* Community-Powered und Open Source
+* <!-- .element: class="fragment" --> Menschenlesbare Automation
+* <!-- .element: class="fragment" --> App Deployment
+* <!-- .element: class="fragment" --> Konfigurationsmanagement
+* <!-- .element: class="fragment" --> Orchestration von Abläufen
+* <!-- .element: class="fragment" --> „Agentenlos“ mit Standard-Mitteln (SSH, Python)
+* <!-- .element: class="fragment" --> Community-Powered und Open Source
+* <!-- .element: class="fragment" --> _by Red Hat _
 
 --
 
 ## Was kann Ansible?
 
-* Systeme in einen gewünschten Zustand bringen
-* Befehle auf mehreren Knoten ausführen
-* Automatisierung ohne Code
-* Deklarative Syntax _(Was, nicht wie)_
-* Module für verschiedene Anwendungsgebiete
+* <!-- .element: class="fragment" --> Systeme in einen gewünschten Zustand bringen
+* <!-- .element: class="fragment" --> Befehle auf mehreren Knoten ausführen
+* <!-- .element: class="fragment" --> Automatisierung ohne Code
+* <!-- .element: class="fragment" --> Deklarative Syntax _(Was, nicht wie)_
+* <!-- .element: class="fragment" --> Module für verschiedene Anwendungsgebiete
   * Datenbanken, Netzwerk, Cloud, Dateisysteme, Unix, Windows, ...
 
 --
 
 ## Meine Ansible Projekte
 
-* Server-Konfiguration 
+* <!-- .element: class="fragment" --> Server-Konfiguration 
     * Webhosting, Mailserver, ...
-* RaspberryPi-Konfiguration 
+* <!-- .element: class="fragment" --> RaspberryPi-Konfiguration 
     * OpenHab, Homegear, ...
-* „Thing“-Konfiguration im IoT 
+* <!-- .element: class="fragment" --> „Thing“-Konfiguration im IoT 
     * Azure Edge, Docker, ...
