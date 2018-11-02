@@ -1,11 +1,20 @@
 # MetaNook 2018 Ansible Presentation
 
-View the presentation [here](https://tobiasmende.github.io/MetaNook2018-Ansible-Slides/)
+## TL;DR
+
+View the presentation [here](https://tobiasmende.github.io/MetaNook2018-Ansible-Slides/).
 
 Made with reveal.js (see below).
 
 Diagrams are made with `blockdiag`. Source  files are contained in the directory `content/text` and have a `.diag` suffix. They are converted to svgs (in `content/images`) and included as images.
 
+## Context
+
+This repository is part of the material I use in my Ansible Session at [MetaNook 2018](https://metanook.de/2018).
+Please be aware of the following repositories, as well:
+
+* [Ansible Playbook](https://github.com/TobiasMende/MetaNook2018-Ansible-Playbook)
+* [Node JS Demo App](https://github.com/TobiasMende/MetaNook2018-Ansible-App)
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
