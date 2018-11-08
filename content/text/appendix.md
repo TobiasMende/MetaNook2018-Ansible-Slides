@@ -2,7 +2,7 @@
 
 --
 
-## Getting Started
+## Anfangen!
 
 <ul>
   <li>Python installieren (2 oder 3)</li> <!-- .element: class="fragment" -->
@@ -12,6 +12,14 @@
   <li>Erstes Playbook erstellen (z.B. mit `ansible-generate`)</li> <!-- .element: class="fragment" -->
   <li>Playbook ausführen mit `ansible-playbook`</li> <!-- .element: class="fragment" -->
 </ul>
+
+--
+
+## Nützliche Tools
+
+* VSCode mit Ansible Plugin
+* ansible-generator
+    * `pip install -U ansible-generator`
 
 --
 
@@ -60,14 +68,6 @@ siehe [Ansible Tower Produktseite](https://www.ansible.com/products/tower)
 * [Node JS Demo App](https://github.com/TobiasMende/MetaNook2018-Ansible-App)
 
 [**Folien online anschauen**](https://tobiasmende.github.io/MetaNook2018-Ansible-Slides/#/)
-
---
-
-## Nützliche Tools
-
-* VSCode mit Ansible Plugin
-* ansible-generator
-    * `pip install -U ansible-generator`
 
 ---
 ## Vielen Dank für die Aufmerksamkeit!
