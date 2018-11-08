@@ -37,8 +37,8 @@
 
 ## Modules
 * sollten idempotent sein <!-- .element: class="fragment" -->
-* Ansible stellt über 450 verschiedene Module bereit <!-- .element: class="fragment" -->
 * Bringe bestimmte Eigenschaften eines Systems in einen gewünschten Zustand <!-- .element: class="fragment" -->
+* Ansible stellt über 450 verschiedene Module bereit <!-- .element: class="fragment" -->
 
 ```yaml
 - name: Installing Packages
@@ -84,9 +84,9 @@ werden am Ende ausgeführt, sofern notwendig. <!-- .element: class="fragment" --
 ## Roles
 
 <ul>
-  <li>Sammlung von Variablen, Tasks, Dateien, Templates und Modulen</li> <!-- .element: class="fragment" -->
-  <li>Unterstruktur für Playbooks</li> <!-- .element: class="fragment" -->
-  <li>Wiederverwendbarkeit von Roles</li> <!-- .element: class="fragment" -->
+  <li>Sind Sammlung von Variablen, Tasks, Dateien, Templates und Modulen</li> <!-- .element: class="fragment" -->
+  <li>Bieten Strukturierung von Playbooks</li> <!-- .element: class="fragment" -->
+  <li>Sind wiederverwendbar</li> <!-- .element: class="fragment" -->
   <li>Docker Hub für Ansible Roles: https://galaxy.ansible.com</li> <!-- .element: class="fragment" -->
 </ul>
 
