@@ -1,4 +1,17 @@
-# Was sonst noch?
+# Weitere Informationen
+
+--
+
+## Getting Started
+
+<ul>
+  <li>Python installieren (2 oder 3)</li> <!-- .element: class="fragment" -->
+  <li>Ansible installieren (Package Manager oder `pip`)</li> <!-- .element: class="fragment" -->
+  <li>ggf. SSH-Key auf Zielrechnern hinterlegen</li> <!-- .element: class="fragment" -->
+  <li>Erste Kommandos ausführen mit `ansible`</li> <!-- .element: class="fragment" -->
+  <li>Erstes Playbook erstellen (z.B. mit `ansible-generate`)</li> <!-- .element: class="fragment" -->
+  <li>Playbook ausführen mit `ansible-playbook`</li> <!-- .element: class="fragment" -->
+</ul>
 
 --
 

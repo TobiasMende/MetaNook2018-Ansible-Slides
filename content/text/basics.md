@@ -6,9 +6,9 @@
 
 <div class='left-col'>
 <ul>
-  <li>Kollektion von „Tasks“, „Roles“, „Handlers“, …</li><!-- .element: class="fragment" -->
-  <li>Beschreibung von Deployments, Konfiguration und Orchestrierung</li><!-- .element: class="fragment" -->
-  <li>Beschreiben den gewünschten Zustand</li><!-- .element: class="fragment" -->
+  <li>enthalten „Tasks“, „Roles“, „Handlers“, …</li><!-- .element: class="fragment" -->
+  <li>beschreiben den gewünschten Zustand eines "Inventars"</li><!-- .element: class="fragment" -->
+  <li>sind yml-Files</li><!-- .element: class="fragment" -->
 </ul>
 </div>    
 <div class='right-col'>
@@ -37,7 +37,7 @@
 
 ## Modules
 * sollten idempotent sein <!-- .element: class="fragment" -->
-* Bringe bestimmte Eigenschaften eines Systems in einen gewünschten Zustand <!-- .element: class="fragment" -->
+* bringe bestimmte Eigenschaften eines Systems in einen gewünschten Zustand <!-- .element: class="fragment" -->
 * Ansible stellt über 450 verschiedene Module bereit <!-- .element: class="fragment" -->
 
 ```yaml
@@ -71,34 +71,21 @@ werden am Ende ausgeführt, sofern notwendig. <!-- .element: class="fragment" --
 
 --
 
-## Inventory
+## Inventories
 
-* Enthält Gruppen, Hosts und ggf. Variablen <!-- .element: class="fragment" -->
-* Beschreibt, auf was das Playbook angewendet wird <!-- .element: class="fragment" -->
-* Statische und dynamische Inventories <!-- .element: class="fragment" -->
-* Statisch: .ini oder .yml <!-- .element: class="fragment" -->
-* Dynamisch: z.B. Python-Skripte <!-- .element: class="fragment" -->
+* enthalten Gruppen, Hosts und ggf. Variablen <!-- .element: class="fragment" -->
+* beschreiben, auf was ein Playbook angewendet wird <!-- .element: class="fragment" -->
+* können statische oder dynamische sein <!-- .element: class="fragment" -->
+  * Statisch: .ini oder .yml <!-- .element: class="fragment" -->
+  * Dynamisch: z.B. Python-Skripte <!-- .element: class="fragment" -->
 
 --
 
 ## Roles
 
 <ul>
-  <li>Sind Sammlung von Variablen, Tasks, Dateien, Templates und Modulen</li> <!-- .element: class="fragment" -->
-  <li>Bieten Strukturierung von Playbooks</li> <!-- .element: class="fragment" -->
-  <li>Sind wiederverwendbar</li> <!-- .element: class="fragment" -->
+  <li>sind Sammlungen von Variablen, Tasks, Dateien, Templates, ...</li> <!-- .element: class="fragment" -->
+  <li>bieten Strukturierung von Playbooks</li> <!-- .element: class="fragment" -->
+  <li>sind wiederverwendbar und können geteilt werden</li> <!-- .element: class="fragment" -->
   <li>Docker Hub für Ansible Roles: https://galaxy.ansible.com</li> <!-- .element: class="fragment" -->
-</ul>
-
----
-
-## Getting Started
-
-<ul>
-  <li>Python installieren (2 oder 3)</li> <!-- .element: class="fragment" -->
-  <li>Ansible installieren (Package Manager oder `pip`)</li> <!-- .element: class="fragment" -->
-  <li>ggf. SSH-Key auf Zielrechnern hinterlegen</li> <!-- .element: class="fragment" -->
-  <li>Erste Kommandos abfeuern mit `ansible`</li> <!-- .element: class="fragment" -->
-  <li>Erstes Playbook erstellen (z.B. mit `ansible-generate`)</li> <!-- .element: class="fragment" -->
-  <li>Playbook ausführen mit `ansible-playbook`</li> <!-- .element: class="fragment" -->
 </ul>
