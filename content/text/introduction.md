@@ -62,10 +62,10 @@ Notes:
 
 ## Was ist Ansible?
 
-* <!-- .element: class="fragment" --> Menschenlesbare Automation
-* <!-- .element: class="fragment" --> App Deployment
-* <!-- .element: class="fragment" --> Konfigurationsmanagement
-* <!-- .element: class="fragment" --> Orchestration von Abläufen
+* <!-- .element: class="fragment" --> Menschenlesbare Automation für
+    * App Deployments
+    * Konfigurationsmanagement
+    * Orchestration von Abläufen
 * <!-- .element: class="fragment" --> „Agentenlos“ mit Standard-Mitteln (SSH, Python)
 * <!-- .element: class="fragment" --> Community-Powered und Open Source
 * <!-- .element: class="fragment" --> _by Red Hat _
