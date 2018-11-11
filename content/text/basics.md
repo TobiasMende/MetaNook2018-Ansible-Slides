@@ -1,4 +1,4 @@
-# Ansible Grundlagen
+# Ansible Basics
 
 --
 
@@ -6,9 +6,9 @@
 
 <div class='left-col'>
 <ul>
-  <li>enthalten „Tasks“, „Roles“, „Handlers“, …</li><!-- .element: class="fragment" -->
-  <li>beschreiben den gewünschten Zustand eines "Inventars"</li><!-- .element: class="fragment" -->
-  <li>sind yml-Files</li><!-- .element: class="fragment" -->
+  <li>contain „tasks“, „roles“, „handlers“, …</li><!-- .element: class="fragment" -->
+  <li>describe the desired state of an "inventory"</li><!-- .element: class="fragment" -->
+  <li>are yml files</li><!-- .element: class="fragment" -->
 </ul>
 </div>    
 <div class='right-col'>
@@ -18,9 +18,9 @@
 --
 
 ## Tasks
-* werden in der definierten Reihenfolge ausgeführt <!-- .element: class="fragment" -->
-* werden auf alle Maschinen angewendet <!-- .element: class="fragment" -->
-* führen Module mit spezifischen Argumenten aus <!-- .element: class="fragment" -->
+* are executed in the defined order <!-- .element: class="fragment" -->
+* are executed on all nodes <!-- .element: class="fragment" -->
+* execute a specific module with specific arguments <!-- .element: class="fragment" -->
 
 ```yaml
 - name: Installing Packages
@@ -36,9 +36,9 @@
 --
 
 ## Modules
-* sollten idempotent sein <!-- .element: class="fragment" -->
-* bringe bestimmte Eigenschaften eines Systems in einen gewünschten Zustand <!-- .element: class="fragment" -->
-* Ansible stellt über 450 verschiedene Module bereit <!-- .element: class="fragment" -->
+* should be idempotent <!-- .element: class="fragment" -->
+* bring a specific property of a system into the desired state <!-- .element: class="fragment" -->
+* Ansible provides more than 450 different modules <!-- .element: class="fragment" -->
 
 ```yaml
 - name: Installing Packages
@@ -54,7 +54,7 @@
 --
 
 ## Handler
-werden am Ende ausgeführt, sofern notwendig. <!-- .element: class="fragment" -->
+are executed at the end, if neccesary. <!-- .element: class="fragment" -->
 
 ```yaml
 - name: write some_random_foo configuration
@@ -73,19 +73,19 @@ werden am Ende ausgeführt, sofern notwendig. <!-- .element: class="fragment" --
 
 ## Inventories
 
-* enthalten Gruppen, Hosts und ggf. Variablen <!-- .element: class="fragment" -->
-* beschreiben, auf was ein Playbook angewendet wird <!-- .element: class="fragment" -->
-* können statische oder dynamische sein <!-- .element: class="fragment" -->
-  * Statisch: .ini oder .yml <!-- .element: class="fragment" -->
-  * Dynamisch: z.B. Python-Skripte <!-- .element: class="fragment" -->
+* contain groups, hosts and (maybe) variables <!-- .element: class="fragment" -->
+* describe, on what a playbook should be applied <!-- .element: class="fragment" -->
+* can be static or dynamic <!-- .element: class="fragment" -->
+  * static: .ini or .yml <!-- .element: class="fragment" -->
+  * dynamic: i.e. Python scripts <!-- .element: class="fragment" -->
 
 --
 
 ## Roles
 
 <ul>
-  <li>sind Sammlungen von Variablen, Tasks, Dateien, Templates, ...</li> <!-- .element: class="fragment" -->
-  <li>bieten Strukturierung von Playbooks</li> <!-- .element: class="fragment" -->
-  <li>sind wiederverwendbar und können geteilt werden</li> <!-- .element: class="fragment" -->
-  <li>Docker Hub für Ansible Roles: https://galaxy.ansible.com</li> <!-- .element: class="fragment" -->
+  <li>are collections of varibles, tasks, files, templates, ...</li> <!-- .element: class="fragment" -->
+  <li>provide structure for playbooks</li> <!-- .element: class="fragment" -->
+  <li>are reusable and can be shared</li> <!-- .element: class="fragment" -->
+  <li>Docker Hub for Ansible Roles: https://galaxy.ansible.com</li> <!-- .element: class="fragment" -->
 </ul>
