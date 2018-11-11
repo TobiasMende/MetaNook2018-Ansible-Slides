@@ -27,25 +27,25 @@ Notes:
 
 --
 
-## Prinzipien
+## Principals
 
-* Konfiguration der Umgebung muss automatisiert sein.
-* **Alles** ist unter Versionskontrolle
-* So einfach wie möglich halten!
-* Konfiguration wird getestet
+* Configuration of the environment must be automated.
+* **Everything** is under version control.
+* Keep it as simple as possible
+* Configuration is tested
 
 --
 
-## Viele Vorteile!
+## Many Advantages!
 
 <div class='left-col'>
 <ul>
-  <li>Kein implizites Wissen</li>
-  <li>Versionskontrolle</li>
-  <li>Reviews</li>
-  <li>Nachvollziehbarkeit</li>
-  <li>Wiederholbarkeit</li>
-  <li>Rollbacks</li>
+  <li>no implicit knowledge</li>
+  <li>version control</li>
+  <li>reviews</li>
+  <li>traceability</li>
+  <li>repeatability</li>
+  <li>rollbacks</li>
   <li>CI/CD</li>
   <li>...</li>
 </ul>
@@ -56,38 +56,38 @@ Notes:
 
 ---
 
-# Über Ansible
+# About Ansible
 
 --
 
-## Was ist Ansible?
+## What is Ansible?
 
-* <!-- .element: class="fragment" --> Menschenlesbare Automation für
-    * App Deployments
-    * Konfigurationsmanagement
-    * Orchestration von Abläufen
-* <!-- .element: class="fragment" --> „Agentenlos“ mit Standard-Mitteln (SSH, Python)
-* <!-- .element: class="fragment" --> Community-Powered und Open Source
+* <!-- .element: class="fragment" --> Human readable automation for
+    * app deployments
+    * configuration management
+    * orchestration of workflows
+* <!-- .element: class="fragment" --> agentless with standard tools (SSH, Python)
+* <!-- .element: class="fragment" --> community powered and open source
 * <!-- .element: class="fragment" --> _by Red Hat _
 
 --
 
-## Was kann Ansible?
+## What can Ansible do?
 
-* <!-- .element: class="fragment" --> Systeme in einen gewünschten Zustand bringen
-* <!-- .element: class="fragment" --> Befehle auf mehreren Knoten ausführen
-* <!-- .element: class="fragment" --> Automatisierung ohne Code
-* <!-- .element: class="fragment" --> Deklarative Syntax _(Was, nicht wie)_
-* <!-- .element: class="fragment" --> Module für verschiedene Anwendungsgebiete
-  * Datenbanken, Netzwerk, Cloud, Dateisysteme, Unix, Windows, ...
+* <!-- .element: class="fragment" --> bring systems into a desired state
+* <!-- .element: class="fragment" --> execute commands on many nodes
+* <!-- .element: class="fragment" --> automation without code
+* <!-- .element: class="fragment" --> delarative syntax _(what, not how)_
+* <!-- .element: class="fragment" --> modules for different domains
+  * databases, networks, cloud, file systems, Unix, Windows, ...
 
 --
 
-## Meine Ansible Projekte
+## My Ansible Projects
 
-* <!-- .element: class="fragment" --> Server-Konfiguration 
-    * Webhosting, Mailserver, ...
-* <!-- .element: class="fragment" --> RaspberryPi-Konfiguration 
+* <!-- .element: class="fragment" --> server configuration 
+    * webhosting, mailserver, ...
+* <!-- .element: class="fragment" --> RaspberryPi configuration 
     * OpenHab, Homegear, ...
-* <!-- .element: class="fragment" --> „Thing“-Konfiguration im IoT 
+* <!-- .element: class="fragment" --> „thing“ configuration in the IoT 
     * Azure Edge, Docker, ...
