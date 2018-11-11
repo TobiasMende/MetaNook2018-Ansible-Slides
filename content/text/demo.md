@@ -2,19 +2,19 @@
 
 --
 
-## Szenario
-Automatischer Aufbau einer Infrastruktur und Deployment für eine Web-Anwendung.
+## Scenario
+Automatic construction of an infrastructure and the deployment of a web application.
 
 <img src="content/images/szenario.svg" style="border: none; background: none; box-shadow: none;">
 
 --
 
-## Umsetzung
+## Implementation
 
-* Vagrant zum Aufbau der Demo-Infrastruktur
-* Ansible Playbook
-    * Nginx als LB
-    * MySQL als Datenbank
-    * NodeJS für die Anwendung
+* Vagrant for the demo infrastructure.
+* Ansible playbook
+    * Nginx as loadbalancer
+    * MySQL as database
+    * NodeJS for the application
 
 [App Source Code](https://github.com/TobiasMende/MetaNook2018-Ansible-App) – [Ansible Playbook](https://github.com/TobiasMende/MetaNook2018-Ansible)
